@@ -48,7 +48,7 @@ darkmode: false
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Richard and I'm an I.T. Consultant. I have ~15 years of experience in <mark>Software Development</mark> for research, specializing in <mark>ICT4Ag</mark>. I have a passion for learning and applying new ICT technologies for problem-solving in different fields. I am always looking for new challenges and opportunities to grow my skill set.
+  Hi, my name's Richard and I'm an I.T. Consultant. I have ~15 years of experience in <mark>Software Development</mark> for research, specializing in <mark>ICT4Ag</mark>. I have a passion for learning and applying emerging ICT technologies for problem-solving in different fields. I am always looking for new challenges and opportunities to grow my skill set.
   
   Currently, I specialize in: <mark>Software Project Management</mark> and <mark>System Administration</mark>.
 
@@ -58,15 +58,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
+        title: University of the Philippines Los Baños
+        caption: 2006 - 2011
         sub_title: BSc Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          The University of the Philippines Los Baños (UPLB), a coeducational publicly funded academic, research and extension institution, is one of the eight constituent universities of the University of the Philippines System, the country's top educational institution.
+        # description: | # this will include new lines to allow paragraphs
+          
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
