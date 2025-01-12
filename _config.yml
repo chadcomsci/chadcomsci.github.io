@@ -115,6 +115,20 @@ content:
 
           For the software side, the platform is set up as a hub-node infrastructure, with the hub being a <mark>Raspberry Pi 4B</mark> and the nodes being the <mark>ESP32</mark> boards. Everything is observable via an online <mark>Grafana</mark> dashboard that is also configured to send alerts to specific email addresses.
 
+      - layout: top-middle
+        title: Home Laboratory
+        additional_links:
+        quote: >
+          Small home setup for testing and learning new technologies.
+        description: | # this will include new lines to allow paragraphs
+          Cloud server subscriptions are expensive, among other things. The goal of my homelab is to be able to have a testbed for trying out new technologies without paying for subscriptions.
+
+          I have a few server devices in this setup that I have upgraded through the years: multiple Raspberry Pis (1,3B,4B), some Dell USFF PCs, and a few n100 miniPCs.
+
+          So far, I have been able to learn and practice <mark>Authentication Technologies (oAuth, LDAP)</mark>, <mark>Containerization (Docker, Kubernetes)</mark>, <mark>Monitoring (Prometheus, Grafana)</mark>, and <mark>Automation (Ansible)</mark>.
+
+          The OS of choice has evolved from Raspbian, to Ubuntu, and finally to Debian with <mark>Proxmox</mark> as the hypervisor for creating <mark>VMs</mark> and <mark>LXCs</mark>.
+
   - title: Work Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
