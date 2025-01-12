@@ -57,15 +57,15 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: University of the Philippines Los Baños
         caption: 2006 - 2011
         sub_title: BSc Computer Science
-        quote: >
-          The University of the Philippines Los Baños (UPLB), a coeducational publicly funded academic, research and extension institution, is one of the eight constituent universities of the University of the Philippines System, the country's top educational institution.
+        # quote: >
+        #   The University of the Philippines Los Baños (UPLB), a coeducational publicly funded academic, research and extension institution, is one of the eight constituent universities of the University of the Philippines System, the country's top educational institution.
         # description: | # this will include new lines to allow paragraphs
   
-      - layout: left
+      - layout: top-middle
         title: University of the Philippines Los Baños
         caption: 2013 - 2015
         sub_title: Master of Information Technology
