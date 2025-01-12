@@ -109,7 +109,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           From time to time, I lead workshops on IoT for beginners, mostly college-level Engineering students. The workshop is meant to teach fundamental concepts in IoT implementation, and for me to learn up-to-date skills, depending on what is widely used as standard. 
           
-          We started with <mark>Arduino/NodeMCU</mark> devices with basic HTTP communication, the plan for the latest one (whenever that may be) is to use <mark>MQTT</mqtt> for the transmission, <mark>Prometheus</mark> for observability, and modern <mark>ESP32</mark> boards.
+          We started with <mark>Arduino/NodeMCU</mark> devices with basic HTTP communication, the plan for the latest one (whenever that may be) is to use <mark>MQTT</mark> for the transmission, <mark>Prometheus</mark> for observability, and modern <mark>ESP32</mark> boards.
       - layout: top-middle
         title: Internet-of-Things (IoT) Crash Course Workshop Sessions
         # link: github.com/sproogen
