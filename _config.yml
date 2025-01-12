@@ -9,7 +9,7 @@ version: 2
 name: Brett Harris
 title: Senior Network System Administrator
 email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+# website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
