@@ -119,12 +119,49 @@ content:
   - title: Work Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
       - layout: top-middle
-        title: EasyHarvest (2017)
+        title: BioInformatics HPC (System Administrator, 2025, PH)
         quote: >
-          An Uber-like platform for farmers to connect with machine owners.
+          Configuration of a high-performance computing (HPC) cluster for bioinformatics research.
         description: | # this will include new lines to allow paragraphs
-          
+
+      - layout: top-middle
+        title: EasyFarm (Product Manager, 2024, VN)
+        quote: >
+          Evolution of EasyHarvest, a platform for farmers to connect with resource suppliers.
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: top-middle
+        title: e-Extension for Agriculture (Product Manager, 2023-2024, LA/VN)
+        quote: >
+          Pioneering agricultural extension services linked with social media and artificial intelligence.
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: top-middle
+        title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) (Developer, 2019, TH)
+        quote: >
+          Progenitor for a number of GHG calculators for different land uses currently in use in Thailand
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: top-middle
+        title: EasyHarvest (Developer, 2017, PH)
+        quote: >
+          An exploration of an Uber-like platform for farmers to connect with combine harvester owners.
+        description: | # this will include new lines to allow paragraphs
+        
+      - layout: top-middle
+        title: SALTS - Salinity Monitoring as a Timely Service (Developer, 2015, VN)
+        quote: >
+          Monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology.
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: top-middle
+        title: Crop Modeling Systems - SAMARA, RIDEV (Developer, 2012, FR)
+        quote: >
+          Development of crop modeling systems for agricultural research.
+        description: | # this will include new lines to allow paragraphs
+
 
   # - title: A Little More About Me
   #   layout: text
