@@ -50,7 +50,7 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Richard and I'm an I.T. Consultant. I have ~15 years of experience in <mark>Software Development</mark> for research, specializing in <mark>ICT4Ag</mark>. I have a passion for learning and applying emerging ICT technologies for problem-solving in different fields. I am always looking for new challenges and opportunities to grow my skill set.
   
-  Currently, I specialize in: <mark>Software Project Management</mark> and <mark>System Administration</mark>.
+  Currently, I specialize in: <mark>Software Project Management</mark>, <mark>System Administration</mark>, and <mark>Software Backend Development</mark>.
 
 
 content:
@@ -94,20 +94,41 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Internet-of-Things (IoT) Crash Course Workshop Sessions
+        # link: github.com/sproogen
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          The goal is to enable students to do the software and hardware integration for IoT projects by themselves without relying on external contractors.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          From time to time, I lead workshops on IoT for beginners, mostly college-level Engineering students. The workshop is meant to teach fundamental concepts in IoT implementation, and for me to learn up-to-date skills, depending on what is widely used as standard. 
+          
+          We started with <mark>Arduino/NodeMCU</mark> devices with basic HTTP communication, the plan for the latest one (whenever that may be) is to use <mark>MQTT</mqtt> for the transmission, <mark>Prometheus</mark> for observability, and modern <mark>ESP32</mark> boards.
+      - layout: top-middle
+        title: Internet-of-Things (IoT) Crash Course Workshop Sessions
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+            # icon: fab fa-github
+            # url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          The goal is to enable students to do the software and hardware integration for IoT projects by themselves without relying on external contractors.
+        description: | # this will include new lines to allow paragraphs
+          From time to time, I lead workshops on IoT for beginners, mostly college-level Engineering students. The workshop is meant to teach fundamental concepts in IoT implementation, and for me to learn up-to-date skills, depending on what is widely used as standard. 
+          
+          We started with <mark>Arduino/NodeMCU</mark> devices with basic HTTP communication, the plan for the latest one (whenever that may be) is to use <mark>MQTT</mqtt> for the transmission, <mark>Prometheus</mark> for observability, and modern <mark>ESP32</mark> boards.
+
+          
 
   - title: Work Projects # Title for the section
     layout: list # Type of content section (list/text)
