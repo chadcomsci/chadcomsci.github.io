@@ -98,37 +98,22 @@ content:
         # link: github.com/sproogen
         # link_text: Project Website
         additional_links:
-          # - title:  sproogen/modern-resume-theme
-            # icon: fab fa-github
-            # url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           The goal is to enable students to do the software and hardware integration for IoT projects by themselves without relying on external contractors.
         description: | # this will include new lines to allow paragraphs
           From time to time, I lead workshops on IoT for beginners, mostly college-level Engineering students. The workshop is meant to teach fundamental concepts in IoT implementation, and for me to learn up-to-date skills, depending on what is widely used as standard. 
           
           We started with <mark>Arduino/NodeMCU</mark> devices with basic HTTP communication, the plan for the latest one (whenever that may be) is to use <mark>MQTT</mark> for the transmission, <mark>Prometheus</mark> for observability, and modern <mark>ESP32</mark> boards.
+      
       - layout: top-middle
-        title: Internet-of-Things (IoT) Crash Course Workshop Sessions
-        # link: github.com/sproogen
-        # link_text: Project Website
+        title: Internet-of-Things (IoT) Projects
         additional_links:
-          # - title:  sproogen/modern-resume-theme
-            # icon: fab fa-github
-            # url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          The goal is to enable students to do the software and hardware integration for IoT projects by themselves without relying on external contractors.
+          Once in a while, some students come along with an interesting project proposal, and I help them with the software and hardware integration.
         description: | # this will include new lines to allow paragraphs
-          From time to time, I lead workshops on IoT for beginners, mostly college-level Engineering students. The workshop is meant to teach fundamental concepts in IoT implementation, and for me to learn up-to-date skills, depending on what is widely used as standard. 
-          
-          We started with <mark>Arduino/NodeMCU</mark> devices with basic HTTP communication, the plan for the latest one (whenever that may be) is to use <mark>MQTT</mqtt> for the transmission, <mark>Prometheus</mark> for observability, and modern <mark>ESP32</mark> boards.
+          I have taken on just a few select student projects that I found interesting, the latest one was a project that involved creating a device that monitored for structural integrity with high-sensitivity vibration <mark>sensors</mark> and transmitted data via <mark>LoRa</mark>.
 
-          
+          For the software side, the platform is set up as a hub-node infrastructure, with the hub being a <mark>Raspberry Pi 4B</mark> and the nodes being the <mark>ESP32</mark> boards. Everything is observable via an online <mark>Grafana</mark> dashboard that is also configured to send alerts to specific email addresses.
 
   - title: Work Projects # Title for the section
     layout: list # Type of content section (list/text)
