@@ -50,7 +50,7 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Richard and I'm an I.T. Consultant. I have ~15 years of experience in <mark>Software Development</mark> for research, specializing in <mark>ICT4Ag</mark>. I have a passion for learning and applying emerging ICT technologies for problem-solving in different fields. I am always looking for new challenges and opportunities to grow my skill set.
   
-  Currently, I specialize in: <mark>Software Project Management</mark>, <mark>System Administration</mark>, and <mark>Software Backend Development</mark>.
+  Currently, I specialize in: <mark>Software Project Management</mark>, <mark>System Administration</mark>, <mark>Web Technologies</mark>, and <mark>Software Backend Development</mark>.
 
 
 content:
@@ -121,28 +121,15 @@ content:
         quote: >
           Small home setup for testing and learning new technologies.
         description: | # this will include new lines to allow paragraphs
-          Cloud server subscriptions are expensive, among other things. The goal of my homelab is to be able to have a testbed for trying out new technologies without paying for subscriptions.
+          The goal of my homelab is to be able to have a testbed for trying out new technologies without paying for subscriptions. I have a few server devices in this setup that I have upgraded through the years: multiple Raspberry Pis (1,3B,4B), some Dell USFF PCs, and a few n100 miniPCs.
 
-          I have a few server devices in this setup that I have upgraded through the years: multiple Raspberry Pis (1,3B,4B), some Dell USFF PCs, and a few n100 miniPCs.
-
-          So far, I have been able to learn and practice <mark>Authentication Technologies (oAuth, LDAP)</mark>, <mark>Containerization (Docker, Kubernetes)</mark>, <mark>Monitoring (Prometheus, Grafana)</mark>, and <mark>Automation (Ansible)</mark>.
-
-          The OS of choice has evolved from Raspbian, to Ubuntu, and finally to Debian with <mark>Proxmox</mark> as the hypervisor for creating <mark>VMs</mark> and <mark>LXCs</mark>.
+          So far, I have been able to learn and practice <mark>Authentication Technologies (oAuth, LDAP)</mark>, <mark>Containerization (Docker, Kubernetes)</mark>, <mark>Monitoring (Prometheus, Grafana)</mark>, and <mark>Automation (Ansible)</mark>. The OS of choice has evolved from Raspbian, to Ubuntu, and finally to Debian with <mark>Proxmox</mark> as the hypervisor for creating <mark>VMs</mark> and <mark>LXCs</mark>.
 
   - title: Work Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
