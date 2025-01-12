@@ -46,7 +46,7 @@ darkmode: false
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Richard and I'm an I.T. Consultant. I have ~15 years of experience in <mark>Software Development</mark> for research, specializing in <mark>ICT4Ag</mark>. I have a passion for learning and applying emerging ICT technologies for problem-solving in different fields. I am always looking for new challenges and opportunities to grow my skill set.
   
