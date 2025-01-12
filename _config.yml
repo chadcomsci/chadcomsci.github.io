@@ -64,7 +64,17 @@ content:
         quote: >
           The University of the Philippines Los Baños (UPLB), a coeducational publicly funded academic, research and extension institution, is one of the eight constituent universities of the University of the Philippines System, the country's top educational institution.
         # description: | # this will include new lines to allow paragraphs
-          
+  
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of the Philippines Los Baños
+        caption: 2013 - 2015
+        sub_title: Master of Information Technology
+        quote: >
+          The UPLB Graduate School administers residential and off-campus graduate programs of UPLB that are supervised by about 700 graduate faculty members from nine colleges and one school.
+        # description: | # this will include new lines to allow paragraphs
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
