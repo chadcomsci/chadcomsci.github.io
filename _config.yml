@@ -84,23 +84,34 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: BioInformatics HPC (System Administrator, 2025)
+        border: weak
+        title: Software Development
         description: | # this will include new lines to allow paragraphs
           * skill 1
           * skill 2
           * skill 3
           * skill 4
 
-      - layout: top-middle
-        title: BBBBBBBB
+      - layout: left
+        border: weak
+        title: System Administration
         description: | # this will include new lines to allow paragraphs
           * skill 1
           * skill 2
           * skill 3
           * skill 4
 
-      - layout: right
-        title: BBBBBBBB
+      - layout: left
+        border: weak
+        title: Project Management
+        description: | # this will include new lines to allow paragraphs
+          * skill 1
+          * skill 2
+          * skill 3
+          * skill 4
+
+      - layout: left
+        title: Others
         description: | # this will include new lines to allow paragraphs
           * skill 1
           * skill 2
