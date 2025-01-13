@@ -86,33 +86,35 @@ content:
     content:
 
       - layout: top-middle
-        title: BioInformatics HPC (System Administrator, 2025, PH)
+        title: BioInformatics HPC (System Administrator, 2025)
         quote: >
           Configuration of a high-performance computing (HPC) cluster for bioinformatics research.
         description: | # this will include new lines to allow paragraphs
+          This project involved the movement of physical units from one location to another, and the reconfiguration of the units to form a high-performance computing (HPC) cluster. The initial plan is to reset all the existing servers and reconfigure them into a purely <mark>virtualized computing environment</mark> using <mark>Proxmox</mark> as the hypervisor to provide computing resources to clients.
           
       - layout: top-middle
-        title: EasyFarm (Product Manager, 2024, VN)
+        title: EasyFarm (Product Manager, 2024)
         quote: >
           Evolution of EasyHarvest, a platform for farmers to connect with resource suppliers.
         description: | # this will include new lines to allow paragraphs
+          EasyFarm is an evolution of EasyHarvest, which was developed in 2017. The platform is a <mark>Cross-platform mobile application</mark> that was developed using <mark>React Native</mark> for the app, and <mark>Wordpress</mark> for the backend. It made use of many third-party APIs and Wordpress plugins to significantly add more scope and features to the former application, such as the introduction of a marketplace for agricultural inputs.
 
       - layout: top-middle
-        title: e-Extension for Agriculture (Product Manager, 2023-2024, LA/VN)
+        title: e-Extension for Agriculture (Product Manager, 2023-2024)
         quote: >
           Pioneering agricultural extension services linked with social media and artificial intelligence.
         description: | # this will include new lines to allow paragraphs
-          
+          Conceptualized and co-developed an e-Extension platform for the dissemination of agricultural information to farmers in Laos and Vietnam. Aside from the traditional e-Extension services delivered via simple resource-hosting websites, the platform also integrated <mark>social media APIs</mark> and <mark>LLM</mark> for the delivery of more personalized and timely information to farmers that is both highly available and accessible.
 
       - layout: top-middle
-        title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) (Developer, 2019, TH)
+        title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) (Developer, 2019)
         quote: >
           Progenitor for a number of GHG calculators for different land uses currently in use in Thailand.
         description: | # this will include new lines to allow paragraphs
           The initial version of SECTOR was developed using <mark>MS Excel</mark> and the <mark>Visual Basic for Applications (VBA)</mark> for the macro-based backend. It relied on the templating of scenarios and calculations to provide a context-scalable and user-friendly interface for the calculation of GHG emissions from cropland.
 
       - layout: top-middle
-        title: EasyHarvest (Developer, 2017, PH)
+        title: EasyHarvest (Developer, 2017)
         quote: >
           An exploration of an Uber-like platform for farmers to connect with combine harvester owners.
         description: | # this will include new lines to allow paragraphs
