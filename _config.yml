@@ -81,6 +81,65 @@ content:
   #       description: | # this will include new lines to allow paragraphs
   #           Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
+  - title: Work Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+
+      - layout: top-middle
+        title: BioInformatics HPC (System Administrator, 2025, PH)
+        quote: >
+          Configuration of a high-performance computing (HPC) cluster for bioinformatics research.
+        description: | # this will include new lines to allow paragraphs
+          
+      - layout: top-middle
+        title: EasyFarm (Product Manager, 2024, VN)
+        quote: >
+          Evolution of EasyHarvest, a platform for farmers to connect with resource suppliers.
+        description: | # this will include new lines to allow paragraphs
+
+      - layout: top-middle
+        title: e-Extension for Agriculture (Product Manager, 2023-2024, LA/VN)
+        quote: >
+          Pioneering agricultural extension services linked with social media and artificial intelligence.
+        description: | # this will include new lines to allow paragraphs
+          
+
+      - layout: top-middle
+        title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) (Developer, 2019, TH)
+        quote: >
+          Progenitor for a number of GHG calculators for different land uses currently in use in Thailand.
+        description: | # this will include new lines to allow paragraphs
+          The initial version of SECTOR was developed using <mark>MS Excel</mark> and the <mark>Visual Basic for Applications (VBA)</mark> for the macro-based backend. It relied on the templating of scenarios and calculations to provide a context-scalable and user-friendly interface for the calculation of GHG emissions from cropland.
+
+      - layout: top-middle
+        title: EasyHarvest (Developer, 2017, PH)
+        quote: >
+          An exploration of an Uber-like platform for farmers to connect with combine harvester owners.
+        description: | # this will include new lines to allow paragraphs
+          This is a <mark>progressive web application (PWA)</mark> that was developed using <mark>NodeJS</mark> for the backend, and <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> for the frontend. <mark>CordovaJS</mark> mobile application framework was used to convert the web application into a mobile application.
+        
+      - layout: top-middle
+        title: SALTS - Salinity Monitoring as a Timely Service (Developer, 2015)
+        quote: >
+          Monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology.
+        description: | # this will include new lines to allow paragraphs
+          Developed a web application for the monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology. The application was developed using <mark>NodeJS</mark> for the backend, and <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> for the frontend. The application made use of <mark>Google APIs</mark> for the visualization of the data, <mark>IVR/SMS APIs</mark>, and a <mark>Linux Server</mark> deployed on AWS.
+
+      - layout: top-middle
+        title: Crop Modeling Systems - SAMARA, RIDEV (Developer, 2012)
+        quote: >
+          Development of crop modeling systems for agricultural research.
+        description: | # this will include new lines to allow paragraphs
+          Provided improvements to crop growth modeling backends to 2 crop modeling platforms developed with <mark>C</mark> and <mark>Pascal</mark> for the French Agricultural Research Centre for International Development (CIRAD).
+          Acted as a resource person for workshops on the usage of the above platforms, and provided technical support for PhD students and other users from the crop modeling community.
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+
   - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -116,61 +175,6 @@ content:
 
           So far, I have been able to learn and practice <mark>Authentication Technologies (oAuth, LDAP)</mark>, <mark>Containerization (Docker, Kubernetes)</mark>, <mark>Monitoring (Prometheus, Grafana)</mark>, and <mark>Automation (Ansible)</mark>. The OS of choice has evolved from Raspbian, to Ubuntu, and finally to Debian with <mark>Proxmox</mark> as the hypervisor for creating <mark>VMs</mark> and <mark>LXCs</mark>.
 
-  - title: Work Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-
-      - layout: top-middle
-        title: BioInformatics HPC (System Administrator, 2025, PH)
-        quote: >
-          Configuration of a high-performance computing (HPC) cluster for bioinformatics research.
-        description: | # this will include new lines to allow paragraphs
-          
-      - layout: top-middle
-        title: EasyFarm (Product Manager, 2024, VN)
-        quote: >
-          Evolution of EasyHarvest, a platform for farmers to connect with resource suppliers.
-        description: | # this will include new lines to allow paragraphs
-
-      - layout: top-middle
-        title: e-Extension for Agriculture (Product Manager, 2023-2024, LA/VN)
-        quote: >
-          Pioneering agricultural extension services linked with social media and artificial intelligence.
-        description: | # this will include new lines to allow paragraphs
-
-      - layout: top-middle
-        title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) (Developer, 2019, TH)
-        quote: >
-          Progenitor for a number of GHG calculators for different land uses currently in use in Thailand
-        description: | # this will include new lines to allow paragraphs
-
-      - layout: top-middle
-        title: EasyHarvest (Developer, 2017, PH)
-        quote: >
-          An exploration of an Uber-like platform for farmers to connect with combine harvester owners.
-        description: | # this will include new lines to allow paragraphs
-        
-      - layout: top-middle
-        title: SALTS - Salinity Monitoring as a Timely Service (Developer, 2015)
-        quote: >
-          Monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology.
-        description: | # this will include new lines to allow paragraphs
-          Developed a web application for the monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology. The application was developed using <mark>NodeJS</mark> for the backend, and <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> for the frontend. <mark>MySQL</mark> was used for the database and <mark>CordovaJS</mark> converts the web application to a mobile application for Android.
-
-      - layout: top-middle
-        title: Crop Modeling Systems - SAMARA, RIDEV (Developer, 2012)
-        quote: >
-          Development of crop modeling systems for agricultural research.
-        description: | # this will include new lines to allow paragraphs
-          Provided improvements to crop growth modeling backends to 2 crop modeling platforms developed with <mark>C</mark> and <mark>Pascal</mark> for the French Agricultural Research Centre for International Development (CIRAD).
-          Acted as a resource person for workshops on the usage of the above platforms, and provided technical support for PhD students and other users from the crop modeling community.
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
 
 # Footer
 footer_show_references: true
