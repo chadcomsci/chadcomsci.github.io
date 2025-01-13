@@ -50,7 +50,7 @@ darkmode: false
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Richard, and I'm an I.T. Consultant with approximately 15 years of experience in Software Development, particularly in ICT for Agriculture (ICT4Ag). I am passionate about learning and applying emerging ICT technologies to solve problems across various fields. I am always seeking new challenges and opportunities to expand my skill set.
 
-  Currently, I specialize in <mark>Software Project Management</mark>, <mark>System Administration</mark>, <mark>Web Technologies</mark>, and <mark>Software Backend Development</mark>.
+  Currently, I specialize in <mark>System Administration</mark>, <mark>Web Technologies</mark>, <mark>Software Backend Development</mark>, and <mark>Software Project Management</mark>.
 
 
 content:
@@ -128,7 +128,8 @@ content:
     content:
       - layout: left
         border: weak
-        title: BioInformatics HPC (System Administrator, 2025)
+        title: BioInformatics HPC
+        sub_title: System Administrator, 2025
         quote: >
           Configuration of a high-performance computing (HPC) cluster for bioinformatics research.
         description: | # this will include new lines to allow paragraphs
