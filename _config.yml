@@ -137,7 +137,8 @@ content:
 
       - layout: left
         border: weak
-        title: EasyFarm (Product Manager, 2024)
+        title: EasyFarm
+        sub_title: Product Manager, 2024
         quote: >
           Evolution of EasyHarvest, a platform for farmers to connect with resource suppliers.
         description: | # this will include new lines to allow paragraphs
@@ -145,7 +146,8 @@ content:
 
       - layout: left
         border: weak
-        title: e-Extension for Agriculture (Product Manager, 2023-2024)
+        title: e-Extension for Agriculture
+        sub_title: Product Manager, 2023-2024
         quote: >
           Pioneering agricultural extension services linked with social media and artificial intelligence.
         description: | # this will include new lines to allow paragraphs
@@ -153,7 +155,8 @@ content:
 
       - layout: left
         border: weak
-        title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) (Developer, 2019)
+        title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) 
+        sub_title: Developer, 2019
         quote: >
           Progenitor for a number of GHG calculators for different land uses currently in use in Thailand.
         description: | # this will include new lines to allow paragraphs
@@ -161,7 +164,8 @@ content:
 
       - layout: left
         border: weak
-        title: EasyHarvest (Developer, 2017)
+        title: EasyHarvest
+        sub_title: Developer, 2017
         quote: >
           An exploration of an Uber-like platform for farmers to connect with combine harvester owners.
         description: | # this will include new lines to allow paragraphs
@@ -169,7 +173,8 @@ content:
 
       - layout: left
         border: weak
-        title: SALTS - Salinity Monitoring as a Timely Service (Developer, 2015)
+        title: SALTS - Salinity Monitoring as a Timely Service 
+        sub_title: Developer, 2015
         quote: >
           Monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology.
         description: | # this will include new lines to allow paragraphs
@@ -177,7 +182,8 @@ content:
 
       - layout: left
         border: weak
-        title: Crop Modeling Systems - SAMARA, RIDEV (Developer, 2012)
+        title: Crop Modeling Systems - SAMARA, RIDEV
+        sub_title: Developer, 2012
         quote: >
           Development of crop modeling systems for agricultural research.
         description: | # this will include new lines to allow paragraphs
