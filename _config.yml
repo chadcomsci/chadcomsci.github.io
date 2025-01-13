@@ -107,10 +107,12 @@ content:
         border: weak
         title: Project Management
         description: | # this will include new lines to allow paragraphs
-          * Product Development
+          * Product Development: Conceptualization, Design, Implementation, Pilot, Deployment
           * Technology survey and selection
           * Project Planning: Gantt, Agile, Kanban
           * Resource Management: AWS, Project Teams, Coordination, Budgets
+          * Documentation: Technical, User, Training
+          * Communication: Stakeholder, Team, Client
 
       - layout: left
         title: Others
