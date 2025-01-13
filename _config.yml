@@ -181,7 +181,6 @@ content:
           Developed a web application for monitoring salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology. The backend was built with <mark>NodeJS</mark>, while the frontend utilized <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The application integrated <mark>Google APIs</mark> for data visualization, <mark>IVR/SMS APIs</mark> for communication, and was hosted on a <mark>Linux Server</mark> deployed on AWS.
 
       - layout: left
-        border: weak
         title: Crop Modeling Systems - SAMARA, RIDEV
         sub_title: Developer, 2012
         quote: >
@@ -225,7 +224,6 @@ content:
           For the software side, the platform is set up as a hub-node infrastructure, with the hub being a <mark>Raspberry Pi 4B</mark> and the nodes being the <mark>ESP32</mark> boards. Everything is observable via an online <mark>Grafana</mark> dashboard that is also configured to send alerts to specific email addresses.
 
       - layout: left
-        border: weak
         title: Home Laboratory
         additional_links:
         quote: >
