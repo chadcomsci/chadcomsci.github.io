@@ -126,49 +126,56 @@ content:
   - title: Work Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: BioInformatics HPC (System Administrator, 2025)
         quote: >
           Configuration of a high-performance computing (HPC) cluster for bioinformatics research.
         description: | # this will include new lines to allow paragraphs
           This project involved relocating physical units and reconfiguring them into a high-performance computing (HPC) cluster. The initial plan was to reset all existing servers and reconfigure them into a purely <mark>virtualized computing environment</mark> using <mark>Proxmox</mark> as the hypervisor, providing computing resources to clients efficiently.       
 
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: EasyFarm (Product Manager, 2024)
         quote: >
           Evolution of EasyHarvest, a platform for farmers to connect with resource suppliers.
         description: | # this will include new lines to allow paragraphs
           EasyFarm is an evolution of EasyHarvest, initially developed in 2017. The platform is a <mark>cross-platform mobile application</mark> built using <mark>React Native</mark> for the frontend and <mark>WordPress</mark> for the backend. It integrates numerous third-party APIs and WordPress plugins to expand the scope and features of the original application, including the addition of a marketplace for agricultural inputs.
 
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: e-Extension for Agriculture (Product Manager, 2023-2024)
         quote: >
           Pioneering agricultural extension services linked with social media and artificial intelligence.
         description: | # this will include new lines to allow paragraphs
           Conceptualized and co-developed an e-Extension platform for disseminating agricultural information to farmers in Laos and Vietnam. The platform goes beyond traditional e-Extension services delivered via simple resource-hosting websites by integrating <mark>social media APIs</mark> and <mark>Large Language Models (LLM)</mark>. This integration ensures the delivery of personalized and timely information to farmers, making it highly available and accessible.
 
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) (Developer, 2019)
         quote: >
           Progenitor for a number of GHG calculators for different land uses currently in use in Thailand.
         description: | # this will include new lines to allow paragraphs
           The initial version of SECTOR was developed using <mark>MS Excel</mark> and <mark>Visual Basic for Applications (VBA)</mark> for the macro-based backend. It relied on templating scenarios and calculations to provide a context-scalable and user-friendly interface for calculating GHG emissions from cropland.
 
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: EasyHarvest (Developer, 2017)
         quote: >
           An exploration of an Uber-like platform for farmers to connect with combine harvester owners.
         description: | # this will include new lines to allow paragraphs
           This is a <mark>progressive web application (PWA)</mark> developed using <mark>NodeJS</mark> for the backend, and <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> for the frontend. The web application was converted into a mobile application using the <mark>CordovaJS</mark> framework.
 
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: SALTS - Salinity Monitoring as a Timely Service (Developer, 2015)
         quote: >
           Monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology.
         description: | # this will include new lines to allow paragraphs
           Developed a web application for monitoring salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology. The backend was built with <mark>NodeJS</mark>, while the frontend utilized <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The application integrated <mark>Google APIs</mark> for data visualization, <mark>IVR/SMS APIs</mark> for communication, and was hosted on a <mark>Linux Server</mark> deployed on AWS.
 
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: Crop Modeling Systems - SAMARA, RIDEV (Developer, 2012)
         quote: >
           Development of crop modeling systems for agricultural research.
@@ -187,6 +194,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Internet-of-Things (IoT) Crash Course Workshop Sessions
         # link: github.com/sproogen
         # link_text: Project Website
@@ -198,7 +206,8 @@ content:
           
           We started with <mark>Arduino/NodeMCU</mark> devices with basic HTTP communication, the plan for the latest one (whenever that may be) is to use <mark>MQTT</mark> for the transmission, <mark>Prometheus</mark> for observability, and modern <mark>ESP32</mark> boards.
       
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: Internet-of-Things (IoT) Student Projects
         additional_links:
         quote: >
@@ -208,7 +217,8 @@ content:
 
           For the software side, the platform is set up as a hub-node infrastructure, with the hub being a <mark>Raspberry Pi 4B</mark> and the nodes being the <mark>ESP32</mark> boards. Everything is observable via an online <mark>Grafana</mark> dashboard that is also configured to send alerts to specific email addresses.
 
-      - layout: top-middle
+      - layout: left
+        border: weak
         title: Home Laboratory
         additional_links:
         quote: >
