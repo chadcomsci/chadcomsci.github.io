@@ -48,9 +48,9 @@ darkmode: false
 # about_title: About Me
 # about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Richard and I'm an I.T. Consultant. I have ~15 years of experience in Software Development for research, specializing in ICT4Ag. I have a passion for learning and applying emerging ICT technologies for problem-solving in different fields. I am always looking for new challenges and opportunities to grow my skill set.
-  
-  Currently, I specialize in: <mark>Software Project Management</mark>, <mark>System Administration</mark>, <mark>Web Technologies</mark>, and <mark>Software Backend Development</mark>.
+  Hi, my name is Richard, and I'm an I.T. Consultant with approximately 15 years of experience in Software Development, particularly in ICT for Agriculture (ICT4Ag). I am passionate about learning and applying emerging ICT technologies to solve problems across various fields. I am always seeking new challenges and opportunities to expand my skill set.
+
+  Currently, I specialize in <mark>Software Project Management</mark>, <mark>System Administration</mark>, <mark>Web Technologies</mark>, and <mark>Software Backend Development</mark>.
 
 
 content:
@@ -87,28 +87,29 @@ content:
         border: weak
         title: Software Development
         description: | # this will include new lines to allow paragraphs
-          * Languages: C/++, Java, Javascript, Python, PHP, Pascal
+          * Languages: C/C++, Java, JavaScript, Python, PHP, Pascal
           * Platforms: Windows, Linux (Debian, Ubuntu, Raspbian), Android
-          * Frameworks: Cordova, NodeJS, Wordpress
+          * Frameworks: Cordova, Node.js, WordPress
           * Databases: MySQL, SQLite, PostgreSQL
           * Tools: Git, Docker, Proxmox, Copilot
-          * Others: RESTful APIs, websockets, MQTT, OAuth
+          * Others: RESTful APIs, WebSockets, MQTT, OAuth, FOSS
 
       - layout: left
         border: weak
         title: System Administration
         description: | # this will include new lines to allow paragraphs
           * OS: Linux (Debian, Ubuntu, Raspbian)
-          * Hypervisors and Containers: Proxmox, Docker, LXCs, VMs
+          * Hypervisors and Containers: Proxmox, Docker, LXC, VMs
           * Monitoring: Prometheus, Grafana, MQTT, HTTP
           * Automation: Ansible, Bash, Python
+          * Platforms: AWS, 3rd-party Cloud Services, On-premises Servers
 
       - layout: left
         border: weak
         title: Project Management
         description: | # this will include new lines to allow paragraphs
           * Product Development: Conceptualization, Design, Implementation, Pilot, Deployment
-          * Technology survey and selection
+          * Technology Survey and Selection
           * Project Planning: Gantt, Agile, Kanban
           * Resource Management: AWS, Project Teams, Coordination, Budgets
           * Documentation: Technical, User, Training
@@ -117,10 +118,10 @@ content:
       - layout: left
         title: Others
         description: | # this will include new lines to allow paragraphs
-          * Hardware: Setup and troubleshooting of SoCs (Raspberry Pi, ESP32), Rackmount Servers, Sensors and IoT devices
-          * Networking: LAN, DNS, Proxies
-          * Security: Firewalls, VPNs, Encryption
-          * DevOps: CI/CD, Monitoring, Automation
+          * Hardware: Setup and troubleshooting of SoCs (Raspberry Pi, ESP32), Rackmount Servers, Sensors, and IoT devices
+          * Networking: LAN, DNS, Proxies, Network Security
+          * Security: Firewalls, VPNs, Encryption, Intrusion Detection
+          * DevOps: CI/CD, Monitoring, Automation, Infrastructure as Code (IaC)
 
   - title: Work Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -130,50 +131,50 @@ content:
         quote: >
           Configuration of a high-performance computing (HPC) cluster for bioinformatics research.
         description: | # this will include new lines to allow paragraphs
-          This project involved the movement of physical units from one location to another, and the reconfiguration of the units to form a high-performance computing (HPC) cluster. The initial plan is to reset all the existing servers and reconfigure them into a purely <mark>virtualized computing environment</mark> using <mark>Proxmox</mark> as the hypervisor to provide computing resources to clients.
-          
+          This project involved relocating physical units and reconfiguring them into a high-performance computing (HPC) cluster. The initial plan was to reset all existing servers and reconfigure them into a purely <mark>virtualized computing environment</mark> using <mark>Proxmox</mark> as the hypervisor, providing computing resources to clients efficiently.       
+
       - layout: top-middle
         title: EasyFarm (Product Manager, 2024)
         quote: >
           Evolution of EasyHarvest, a platform for farmers to connect with resource suppliers.
         description: | # this will include new lines to allow paragraphs
-          EasyFarm is an evolution of EasyHarvest, which was developed in 2017. The platform is a <mark>Cross-platform mobile application</mark> that was developed using <mark>React Native</mark> for the app, and <mark>Wordpress</mark> for the backend. It made use of many third-party APIs and Wordpress plugins to significantly add more scope and features to the former application, such as the introduction of a marketplace for agricultural inputs.
+          EasyFarm is an evolution of EasyHarvest, initially developed in 2017. The platform is a <mark>cross-platform mobile application</mark> built using <mark>React Native</mark> for the frontend and <mark>WordPress</mark> for the backend. It integrates numerous third-party APIs and WordPress plugins to expand the scope and features of the original application, including the addition of a marketplace for agricultural inputs.
 
       - layout: top-middle
         title: e-Extension for Agriculture (Product Manager, 2023-2024)
         quote: >
           Pioneering agricultural extension services linked with social media and artificial intelligence.
         description: | # this will include new lines to allow paragraphs
-          Conceptualized and co-developed an e-Extension platform for the dissemination of agricultural information to farmers in Laos and Vietnam. Aside from the traditional e-Extension services delivered via simple resource-hosting websites, the platform also integrated <mark>social media APIs</mark> and <mark>LLM</mark> for the delivery of more personalized and timely information to farmers that is both highly available and accessible.
+          Conceptualized and co-developed an e-Extension platform for disseminating agricultural information to farmers in Laos and Vietnam. The platform goes beyond traditional e-Extension services delivered via simple resource-hosting websites by integrating <mark>social media APIs</mark> and <mark>Large Language Models (LLM)</mark>. This integration ensures the delivery of personalized and timely information to farmers, making it highly available and accessible.
 
       - layout: top-middle
         title: Source-selective and Emission-adjusted GHG Calculator for Cropland (SECTOR) (Developer, 2019)
         quote: >
           Progenitor for a number of GHG calculators for different land uses currently in use in Thailand.
         description: | # this will include new lines to allow paragraphs
-          The initial version of SECTOR was developed using <mark>MS Excel</mark> and the <mark>Visual Basic for Applications (VBA)</mark> for the macro-based backend. It relied on the templating of scenarios and calculations to provide a context-scalable and user-friendly interface for the calculation of GHG emissions from cropland.
+          The initial version of SECTOR was developed using <mark>MS Excel</mark> and <mark>Visual Basic for Applications (VBA)</mark> for the macro-based backend. It relied on templating scenarios and calculations to provide a context-scalable and user-friendly interface for calculating GHG emissions from cropland.
 
       - layout: top-middle
         title: EasyHarvest (Developer, 2017)
         quote: >
           An exploration of an Uber-like platform for farmers to connect with combine harvester owners.
         description: | # this will include new lines to allow paragraphs
-          This is a <mark>progressive web application (PWA)</mark> that was developed using <mark>NodeJS</mark> for the backend, and <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> for the frontend. <mark>CordovaJS</mark> mobile application framework was used to convert the web application into a mobile application.
-        
+          This is a <mark>progressive web application (PWA)</mark> developed using <mark>NodeJS</mark> for the backend, and <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> for the frontend. The web application was converted into a mobile application using the <mark>CordovaJS</mark> framework.
+
       - layout: top-middle
         title: SALTS - Salinity Monitoring as a Timely Service (Developer, 2015)
         quote: >
           Monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology.
         description: | # this will include new lines to allow paragraphs
-          Developed a web application for the monitoring of salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology. The application was developed using <mark>NodeJS</mark> for the backend, and <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark> for the frontend. The application made use of <mark>Google APIs</mark> for the visualization of the data, <mark>IVR/SMS APIs</mark>, and a <mark>Linux Server</mark> deployed on AWS.
+          Developed a web application for monitoring salinity levels in the Mekong Delta using hyper-localized data with GPS and IVR technology. The backend was built with <mark>NodeJS</mark>, while the frontend utilized <mark>HTML</mark>, <mark>CSS</mark>, and <mark>JavaScript</mark>. The application integrated <mark>Google APIs</mark> for data visualization, <mark>IVR/SMS APIs</mark> for communication, and was hosted on a <mark>Linux Server</mark> deployed on AWS.
 
       - layout: top-middle
         title: Crop Modeling Systems - SAMARA, RIDEV (Developer, 2012)
         quote: >
           Development of crop modeling systems for agricultural research.
         description: | # this will include new lines to allow paragraphs
-          Provided improvements to crop growth modeling backends to 2 crop modeling platforms developed with <mark>C</mark> and <mark>Pascal</mark> for the French Agricultural Research Centre for International Development (CIRAD).
-          Acted as a resource person for workshops on the usage of the above platforms, and provided technical support for PhD students and other users from the crop modeling community.
+          Provided improvements to crop growth modeling backends for two crop modeling platforms developed with <mark>C</mark> and <mark>Pascal</mark> for the French Agricultural Research Centre for International Development (CIRAD). Acted as a resource person for workshops on the usage of these platforms and provided technical support for PhD students and other users from the crop modeling community.
+
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
