@@ -87,36 +87,38 @@ content:
         border: weak
         title: Software Development
         description: | # this will include new lines to allow paragraphs
-          * skill 1
-          * skill 2
-          * skill 3
-          * skill 4
+          * Languages: C/++, Java, Javascript, Python, PHP, Pascal
+          * Platforms: Windows, Linux (Debian, Ubuntu, Raspbian), Android
+          * Frameworks: Cordova, NodeJS, Wordpress
+          * Databases: MySQL, SQLite, PostgreSQL
+          * Tools: Git, Docker, Proxmox, Copilot
+          * Others: RESTful APIs, websockets, MQTT, OAuth
 
       - layout: left
         border: weak
         title: System Administration
         description: | # this will include new lines to allow paragraphs
-          * skill 1
-          * skill 2
-          * skill 3
-          * skill 4
+          * OS: Linux (Debian, Ubuntu, Raspbian)
+          * Hypervisors and Containers: Proxmox, Docker, LXCs, VMs
+          * Monitoring: Prometheus, Grafana, MQTT, HTTP
+          * Automation: Ansible, Bash, Python
 
       - layout: left
         border: weak
         title: Project Management
         description: | # this will include new lines to allow paragraphs
-          * skill 1
-          * skill 2
-          * skill 3
-          * skill 4
+          * Product Development
+          * Technology survey and selection
+          * Project Planning: Gantt, Agile, Kanban
+          * Resource Management: AWS, Project Teams, Coordination, Budgets
 
       - layout: left
         title: Others
         description: | # this will include new lines to allow paragraphs
-          * skill 1
-          * skill 2
-          * skill 3
-          * skill 4
+          * Hardware: Setup and troubleshooting of SoCs (Raspberry Pi, ESP32), Rackmount Servers, Sensors and IoT devices
+          * Networking: LAN, DNS, Proxies
+          * Security: Firewalls, VPNs, Encryption
+          * DevOps: CI/CD, Monitoring, Automation
 
   - title: Work Projects # Title for the section
     layout: list # Type of content section (list/text)
