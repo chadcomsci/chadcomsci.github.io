@@ -186,7 +186,7 @@ content:
   - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Internet-of-Things (IoT) Crash Course Workshop Sessions
         # link: github.com/sproogen
         # link_text: Project Website
