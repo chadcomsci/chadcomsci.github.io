@@ -214,7 +214,7 @@ content:
       
       - layout: left
         border: weak
-        title: Internet-of-Things (IoT) Student Projects
+        title: Internet-of-Things (IoT) Mini Projects
         additional_links:
         quote: >
           Once in a while, some students come along with an interesting project proposal, and I help them with the software and hardware integration.
