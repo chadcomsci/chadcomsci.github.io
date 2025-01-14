@@ -202,9 +202,7 @@ content:
       - layout: left
         border: weak
         title: Internet-of-Things (IoT) Crash Course Workshop Sessions
-        # link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
+        sub_title: 2022 -
         quote: >
           The goal is to enable students to do the software and hardware integration for IoT projects by themselves without relying on external contractors.
         description: | # this will include new lines to allow paragraphs
@@ -215,7 +213,7 @@ content:
       - layout: left
         border: weak
         title: Internet-of-Things (IoT) Mini Projects
-        additional_links:
+        sub_title: 2024 -
         quote: >
           Once in a while, some students come along with an interesting project proposal, and I help them with the software and hardware integration.
         description: | # this will include new lines to allow paragraphs
@@ -225,7 +223,7 @@ content:
 
       - layout: left
         title: Home Laboratory
-        additional_links:
+        sub_title: 2014 -
         quote: >
           Small home setup for testing and learning new technologies.
         description: | # this will include new lines to allow paragraphs
