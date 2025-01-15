@@ -223,6 +223,7 @@ content:
 
       - layout: left
         title: Home Laboratory
+        border: weak
         sub_title: 2014 - present
         quote: >
           Small home setup for testing and learning new technologies.
@@ -231,6 +232,13 @@ content:
 
           So far, I have been able to learn and practice <mark>Authentication Technologies (oAuth, LDAP)</mark>, <mark>Containerization (Docker, Kubernetes)</mark>, <mark>Monitoring (Prometheus, Grafana)</mark>, and <mark>Automation (Ansible)</mark>. The OS of choice has evolved from Raspbian, to Ubuntu, and finally to Debian with <mark>Proxmox</mark> as the hypervisor for creating <mark>VMs</mark> and <mark>LXCs</mark>.
 
+      - layout: left
+        title: Data Science
+        sub_title: 2012 - present
+        quote: >
+          Learning and practicing data-driven work, including data collection, cleaning, transformation, and analysis.
+        description: | # this will include new lines to allow paragraphs
+          Aside from my work with crop models and <mark>R programming</mark>, I attended a pioneering course by DOST-PCIEERD on <mark>Data Science</mark> with a focus on <mark>Statistics</mark> and <mark>Python</mark>. The concepts I learned, such as <mark>data collection, cleaning, transformation, and analysis</mark>, are skills I continue to apply in my projects today.
 
 # Footer
 footer_show_references: true
