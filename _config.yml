@@ -238,7 +238,7 @@ content:
         quote: >
           Learning and practicing data-driven work, including data collection, cleaning, transformation, and analysis.
         description: | # this will include new lines to allow paragraphs
-          Aside from my work with crop models and <mark>R programming</mark>, I attended a pioneering course by DOST-PCIEERD on <mark>Data Science</mark> with a focus on <mark>Statistics</mark> and <mark>Python</mark>. The concepts I learned, such as <mark>data collection, cleaning, transformation, and analysis</mark>, are skills I continue to apply in my projects today.
+          Aside from my work with crop models and <mark>R programming</mark>, I attended a pioneering course by DOST-PCIEERD on <mark>Data Science</mark> with a focus on <mark>Statistics</mark> and <mark>Python</mark>. The concepts I learned, such as <mark>data collection, cleaning, transformation, analysis, and presentation</mark>, are skills I continue to apply in my projects today.
 
 # Footer
 footer_show_references: true
