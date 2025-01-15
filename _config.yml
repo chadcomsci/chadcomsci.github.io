@@ -201,7 +201,7 @@ content:
     content:
       - layout: left
         border: weak
-        title: Internet-of-Things (IoT) Crash Course Workshop Sessions
+        title: IoT Crash Course Workshop Sessions
         sub_title: 2021 - present
         quote: >
           The goal is to enable students to do the software and hardware integration for IoT projects by themselves without relying on external help.
@@ -212,7 +212,7 @@ content:
       
       - layout: left
         border: weak
-        title: Internet-of-Things (IoT) Mini Projects
+        title: IoT Mini Projects
         sub_title: 2024 - present
         quote: >
           Once in a while, some students come along with an interesting project proposal, and I help them with the software and hardware integration.
