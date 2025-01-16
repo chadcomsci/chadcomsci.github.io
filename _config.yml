@@ -57,7 +57,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: University of the Philippines Los Baños
         sub_title: Los Baños, Laguna, PH
         description: |
