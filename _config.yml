@@ -59,10 +59,12 @@ content:
     content:
       - layout: top-middle
         title: University of the Philippines Los Baños
-        sub_title: Los Baños, Laguna, PH
-        description: |
-            * Master of Information Technology 2015
-            * Bachelor of Science in Computer Science 2011
+        sub_title: |
+          * Master of Information Technology 2015
+          * Bachelor of Science in Computer Science 2011
+        # description: |
+        #     * Master of Information Technology 2015
+        #     * Bachelor of Science in Computer Science 2011
 
   # - title: Experience # Title for the section
   #   layout: list # Type of content section (list/text)
