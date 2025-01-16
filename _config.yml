@@ -57,11 +57,12 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: University of the Philippines Los Baños
         caption: 2013 - 2015
         sub_title: Master of Information Technology
-
+        description: |
+            Master of Information Technology
       - layout: top-middle
         title: University of the Philippines Los Baños
         caption: 2006 - 2011
